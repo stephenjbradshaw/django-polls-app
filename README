@@ -1,7 +1,15 @@
-# My Django Project
+# Django tutorial project
 
 ## Run the project locally
+- Use virtual environment: `python -m venv .venv && source .venv/bin/activate`
+- Install dependencies: `pip install -r requirements.txt`
+- Apply database migrations: `python manage.py migrate`
+- Create admin user (optional): `python manage.py createsuperuser`
+- Run development server: `python manage.py runserver`
 
-Use virtual environment: `python -m venv .venv && source .venv/bin/activate`
-Install dependencies: `pip install -r requirements.txt`
-Run development server: `python manage.py runserver`
+## Use admin dashboard
+- Create admin user: `python manage.py createsuperuser`
+- Run development server: `python manage.py runserver`
+
+
+
