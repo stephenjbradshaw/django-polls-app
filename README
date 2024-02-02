@@ -1,0 +1,3 @@
+# My Django Project
+
+Run development server: `python manage.py runserver`
